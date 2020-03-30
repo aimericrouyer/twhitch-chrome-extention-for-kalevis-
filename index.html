@@ -141,30 +141,30 @@
             <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     </head>
     <body style="height: 550 !important; width: 372;">
-        <div id="param" class="fixed">
-        <a><img src="img/gear.png" width="20px" height="20px" class="pointer gear"></a>
+        <div id="param" class="fixed"> //the gear class ( settings )
+        <a><img src="img/gear.png" width="20px" height="20px" class="pointer gear"></a> //gear picture
         </div>
         
         <center>
-            <p style="font-size: 3em !important;margin-bottom:0px; color: blanchedalmond !important; padding-left: 50px; margin-right: 50px;">kalevis_</p>
-            <img class="img" src="img/icon.png" width="70px" height="70px" alt="" style="margin-right: 30px; margin-left: 30px;">
-            <u class="underline"><h4 id="thirdWordStatusLink" style="font-size: 2em !important; margin-top: 3px;">Chargement ...</h4></u>
+            <p style="font-size: 3em !important;margin-bottom:0px; color: blanchedalmond !important; padding-left: 50px; margin-right: 50px;">kalevis_</p> //the name of the streamer
+            <img class="img" src="img/icon.png" width="70px" height="70px" alt="" style="margin-right: 30px; margin-left: 30px;"> //the icon of the streamer visible only when the live is off
+            <u class="underline"><h4 id="thirdWordStatusLink" style="font-size: 2em !important; margin-top: 3px;">Chargement ...</h4></u> //the text that show if the streamer is online
             
            
-        <div class="onstream">
+        <div class="onstream"> //the class which is visible when the streamer is online
             <a id="livetwitchdirect"></a>
 
-            <h4 id="liveTitle" style="font-size: 15px !important;" class="titleBox">Chargement ...</h4>
-            <h4 id="gamePlaying" style="font-size: 15px !important; margin-top: -10px;" class="titleBox">Joue à : Chargement ...</h4>
-            <p id="viewerCount" style="font-size: 15px !important; color: white; margin-top: -13px !important;" class="viewerBox">Chargement ...</p>
+            <h4 id="liveTitle" style="font-size: 15px !important;" class="titleBox">Chargement ...</h4> //the title of the live
+            <h4 id="gamePlaying" style="font-size: 15px !important; margin-top: -10px;" class="titleBox">Joue à : Chargement ...</h4> //the game played
+            <p id="viewerCount" style="font-size: 15px !important; color: white; margin-top: -13px !important;" class="viewerBox">Chargement ...</p> //the viewer count
             
             <div style="margin-top: -5px;"> 
-            <h4 style="font-size: 15px !important;">Suis moi sur les r&#xE9seaux</h4>
+            <h4 style="font-size: 15px !important;">Suis moi sur les r&#xE9seaux</h4> //social media link
             <div style="margin-top: -15px;">
-        <a id="discord" class="pointer"><img src="img/discord.png" width="60px" height="60px" style="margin-bottom: 30px; margin-top: -25px; padding-top: 10px;"></a>       
-        <a id="twitch2" class="pointer"><img src="img/twitch.png" width="60px" height="60px" style="margin-bottom: 30px; margin-top: -25px; margin-top: 10px !important; margin-left: 35px;"></a>
-        <a id="instagram2" class="pointer"><img src="img/instagram.png" width="50px" height="50px" style="margin-right: 35px !important; margin-bottom: 30px; margin-left: 35px; margin-top: 5px;"></a>
-        <a id="twt2" class="pointer"><img src="img/twitter.png" width="50px" height="50px" style="margin-bottom: 30px; margin-top: 5px;"></a>
+        <a id="discord" class="pointer"><img src="img/discord.png" width="60px" height="60px" style="margin-bottom: 30px; margin-top: -25px; padding-top: 10px;"></a> //discord picture       
+        <a id="twitch2" class="pointer"><img src="img/twitch.png" width="60px" height="60px" style="margin-bottom: 30px; margin-top: -25px; margin-top: 10px !important; margin-left: 35px;"></a> //twitch picture 
+        <a id="instagram2" class="pointer"><img src="img/instagram.png" width="50px" height="50px" style="margin-right: 35px !important; margin-bottom: 30px; margin-left: 35px; margin-top: 5px;"></a> //instagram picture 
+        <a id="twt2" class="pointer"><img src="img/twitter.png" width="50px" height="50px" style="margin-bottom: 30px; margin-top: 5px;"></a> //twitter picture
             </div>
             </div>
         
@@ -173,10 +173,10 @@
         
         
     </div>
-    <div class="nostream" style="padding-left: 3rem; padding-right: 3rem;">
+    <div class="nostream" style="padding-left: 3rem; padding-right: 3rem;"> //the class which is visible when the streamer is offline
         
-        <h4 style="font-size: 2em !important; margin-top: -10px;">Suis moi sur les r&#xE9seaux</h4>
-        <div class="discord-button-wrapper" >
+        <h4 style="font-size: 2em !important; margin-top: -10px;">Suis moi sur les r&#xE9seaux</h4> //social media link
+        <div class="discord-button-wrapper" > //discord class
             <div class="left">
                 <img src="https://discordapp.com/assets/192cb9459cbc0f9e73e2591b700f1857.svg" alt="">
             <p class="discord-button-title">Un serveur tout bibou</p>
@@ -188,7 +188,7 @@
       
     <div style="margin-top: 20px;" >
     
-        <svg viewBox="-50 -50 100 100" width="200" height="175" id="twitch" fill="white" >
+        <svg viewBox="-50 -50 100 100" width="200" height="175" id="twitch" fill="white" > //the twhitch animated icon import from this code pen : https://codepen.io/borntofrappe/pen/YzPzvMY
             <mask id="mask">
                 <circle r="50" fill="hsl(0, 0%, 100%)"  />
                 <g id="eyesight" transform="translate(4 0)">
@@ -210,32 +210,32 @@
                 </g>
             </g>
         </svg>
-        <script src="js/twitch.js"></script>
+        <script src="js/twitch.js"></script> //import the script of the animated twitch icon
     
     <div>
-    <a id="instagram"><img src="img/instagram.png" width="50px" height="50px" class="pointer" style="margin-right: 25px !important; margin-left: 0px; margin-top: -10px;"></a>
-    <a id="twt"><img src="img/twitter.png" width="50px" height="50px" class="pointer" style="margin-top: -10px;"></a>
+    <a id="instagram"><img src="img/instagram.png" width="50px" height="50px" class="pointer" style="margin-right: 25px !important; margin-left: 0px; margin-top: -10px;"></a> //instagram picture
+    <a id="twt"><img src="img/twitter.png" width="50px" height="50px" class="pointer" style="margin-top: -10px;"></a> //twitter picture 
     </div>
     </div>
     </div>
-    <div class="parametre hide">
+    <div class="parametre hide"> //settings ( hide basic )
         <h4 style="font-size: 2em !important; margin-top: -10px;">Menu des param&#xE8tres : </h4>
         <div id="cocherouge" class="cocherouge pointer">
-            <div class="streamoff">
+            <div class="streamoff"> //definite the text and the picture 
                 <a style="position: fixed; top:46%; left:19%;" ><img src="img/coche_rouge.png" width="20px" height="20px"></a>
                 <p style="font-size: 2em !important;">notifier des lives</p>
             </div>
-            <div class="streamon">
+            <div class="streamon"> //definite the text and the picture 
                 <a style="position: fixed; top:32%; left:19%;" ><img src="img/coche_rouge.png" width="20px" height="20px"></a>
                 <p style="font-size: 2em !important;">notifier des lives</p>
             </div>
         </div>
         <div id="cochevert" class="cochevert pointer">
-            <div class="streamoff">
+            <div class="streamoff"> //definite the text and the picture 
                 <a style="position: fixed; top:46%; left:19%;"><img src="img/coche_vert.png" width="20px" height="20px"></a>
                 <p style="font-size: 2em !important;">notifier des lives</p>
             </div>
-            <div class="streamon">
+            <div class="streamon"> //definite the text and the picture 
                 <a style="position: fixed; top:32%; left:19%;"><img src="img/coche_vert.png" width="20px" height="20px"></a>
                 <p style="font-size: 2em !important;">notifier des lives</p>
             </div>
@@ -243,8 +243,8 @@
     </div>
         </center>
         
-        <script src="js/jquery.js"></script>
-        <script src="js/click.js"></script>
-        <script src="js/main.js"></script>
+        <script src="js/jquery.js"></script> //import some script
+        <script src="js/click.js"></script> //import some script
+        <script src="js/main.js"></script> //import some script
     </body>
 </html>
