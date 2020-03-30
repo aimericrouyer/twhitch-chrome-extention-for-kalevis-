@@ -1,3 +1,5 @@
+//script imported from this code pen : https://codepen.io/borntofrappe/pen/YzPzvMY
+//this script is here for the animated twitch icon that you can see when the live is offline
 const svg = document.querySelector('svg');
 const eyesight = svg.querySelector('svg #eyesight');
 const { left: x, top: y, width, height } = svg.getBoundingClientRect();
